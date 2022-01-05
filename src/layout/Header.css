@@ -1,0 +1,16 @@
+.menu {
+  color: pink;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.item {
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+
+.item:hover {
+  text-decoration: underline;
+}
